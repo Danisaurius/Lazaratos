@@ -164,7 +164,19 @@ nav>ul>li>a:hover {
     align-items: center;
     width: 5%;
     gap: 3px;
+    position: relative;
 }
+
+.social_media2 {
+    display: flex;
+    margin: 4px auto 0 auto;
+    flex-direction: column;
+    align-items: center;
+    width: 5%;
+    gap: 3px;
+    position: relative;
+}
+
 
 .instagram_logo {
     width: 25px;
@@ -206,20 +218,20 @@ nav>ul>li>a:hover {
 .Collage-text-1 {
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 240px;
     left: 0;
     color: rgb(238, 187, 79);
     font-family: 'Raleway', sans-serif;
-    font-size: 12em;
+    font-size: 7em;
     font-weight: 900;
     text-align: center;
-    letter-spacing: 2px;
     z-index: 1;
     background-color: white;
     /* box-shadow: 0px 3px 4px rgba(26, 10, 0, 0.486); */
     line-height: 0.8;
-    padding: 30px 0;
+    padding: 10px 10px;
     overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 
@@ -270,7 +282,7 @@ nav>ul>li>a:hover {
 
 @keyframes place_on_top1 {
     0% {
-        transform: translate(-500%, -500%) ;
+        transform: translate(-500%, -500%);
     }
 
     100% {
@@ -285,7 +297,7 @@ nav>ul>li>a:hover {
 
 @keyframes place_on_top2 {
     0% {
-        transform: translate(500%, 500%) ;
+        transform: translate(500%, 500%);
         opacity: 0;
     }
 
@@ -653,6 +665,43 @@ nav>ul>li>a:hover {
     box-shadow: 0 8px 6px rgba(59, 51, 0, 0.473);
 }
 
+
+.footer_container {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 -4px 6px rgba(59, 51, 0, 0.473);
+    display: flex;
+    padding: 35px 10% 20px 25%;
+    gap: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.footer_text_container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    position: relative;
+    z-index: 10;
+    /* border: 2px solid rgb(173, 142, 0); */
+
+}
+
+.footer_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    color: rgb(27, 21, 0);
+    text-align: left;
+    position: relative;
+    z-index: 11;
+    width: 100%;
+    /* border: 2px solid rgb(173, 142, 0); */
+}
+
 @media (max-width: 670px) {
 
     header {
@@ -679,6 +728,10 @@ nav>ul>li>a:hover {
 
     .social_media {
         margin-top: 50px !important;
+        transform: translateX(-30px);
+    }
+
+    .social_media2 {
         transform: translateX(-30px);
     }
 
@@ -768,6 +821,14 @@ nav>ul>li>a:hover {
         width: 20%;
     }
 
+    .footer_container {
+        padding: 35px 4% 20px 4% !important;
+
+    }
+
+    .footer_text {
+        font-size: 0.7em !important;
+    }
 
 }
 
@@ -785,6 +846,11 @@ nav>ul>li>a:hover {
     }
 
     .social_media {
+        width: 10%;
+        margin-top: 0;
+    }
+
+    .social_media2 {
         width: 10%;
         margin-top: 0;
     }
@@ -860,6 +926,11 @@ nav>ul>li>a:hover {
     #submitButton {
         font-size: 1em;
         width: 20%;
+    }
+
+    
+    .footer_container {
+        padding: 35px 2% 20px 10%;
     }
 
 }
@@ -1076,371 +1147,371 @@ body.loaded #main-content {
 @keyframes Translate1 {
     from {
         opacity: 0;
-        transform: translate(-100%, 50%) ;
+        transform: translate(-100%, 50%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate2 {
     from {
         opacity: 0;
-        transform: translate(-100%, -80%) ;
+        transform: translate(-100%, -80%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate3 {
     from {
         opacity: 0;
-        transform: translate(-90%, -90%) ;
+        transform: translate(-90%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate4 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate5 {
     from {
         opacity: 0;
-        transform: translate(120%, 70%) ;
+        transform: translate(120%, 70%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate6 {
     from {
         opacity: 0;
-        transform: translate(129%, -52%) ;
+        transform: translate(129%, -52%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate7 {
     from {
         opacity: 0;
-        transform: translate(110%, 720%) ;
+        transform: translate(110%, 720%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate8 {
     from {
         opacity: 0;
-        transform: translate(-130%, -40%) ;
+        transform: translate(-130%, -40%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate9 {
     from {
         opacity: 0;
-        transform: translate(140%, -120%) ;
+        transform: translate(140%, -120%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate10 {
     from {
         opacity: 0;
-        transform: translate(123%, -123%) ;
+        transform: translate(123%, -123%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate11 {
     from {
         opacity: 0;
-        transform: translate(-160%, -90%) ;
+        transform: translate(-160%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate12 {
     from {
         opacity: 0;
-        transform: translate(140%, -180%) ;
+        transform: translate(140%, -180%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate13 {
     from {
         opacity: 0;
-        transform: translate(-120%, 163%) ;
+        transform: translate(-120%, 163%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate14 {
     from {
         opacity: 0;
-        transform: translate(131%, -183%) ;
+        transform: translate(131%, -183%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate15 {
     from {
         opacity: 0;
-        transform: translate(-154%, -140%) ;
+        transform: translate(-154%, -140%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate16 {
     from {
         opacity: 0;
-        transform: translate(90%, 90%) ;
+        transform: translate(90%, 90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate17 {
     from {
         opacity: 0;
-        transform: translate(90%, -90%) ;
+        transform: translate(90%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate18 {
     from {
         opacity: 0;
-        transform: translate(-140%, -90%) ;
+        transform: translate(-140%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate19 {
     from {
         opacity: 0;
-        transform: translate(-60%, -90%) ;
+        transform: translate(-60%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate20 {
     from {
         opacity: 0;
-        transform: translate(1720%, 172%) ;
+        transform: translate(1720%, 172%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate21 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate22 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate23 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate24 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate25 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate26 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate27 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate28 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate29 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate30 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
 
 @keyframes Translate31 {
     from {
         opacity: 0;
-        transform: translate(100%, -90%) ;
+        transform: translate(100%, -90%);
     }
 
     to {
         opacity: 1;
-        transform: translate(0, 0) ;
+        transform: translate(0, 0);
     }
 }
