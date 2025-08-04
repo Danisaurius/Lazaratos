@@ -212,7 +212,7 @@ nav>ul>li>a:hover {
     margin: 0 auto 0 auto;
     position: relative;
     background-color: rgb(238, 187, 79);
-    padding: 0;
+    padding: 0 10px 0 10px;
 }
 
 .Collage-text-1 {
@@ -778,7 +778,9 @@ nav>ul>li>a:hover {
     .Collage-text-1 {
         top: 60px;
         left: 0 !important;
-        font-size: 4.5em !important;
+        font-size: 3em !important;
+        padding: 5px 5px !important;
+        /* border: 2px solid red; */
     }
 
     .gallery-text {
