@@ -236,6 +236,42 @@ nav>ul>li>a:hover {
     transition: transform 0.3s ease;
 }
 
+
+.circlesContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    top: 75%;
+    right: 0px;
+    width: 5%;
+    height: auto;
+    z-index: 20;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 20;
+    background-color: white;
+}
+
+.circle1 {
+    background-color: rgb(169, 184, 11);
+}
+
+.circle2 {
+    background-color: rgb(92, 124, 5);
+}
+
+.circle3 {
+    background-color: rgb(57, 82, 0);
+}
+
 .about_me_profile_pic_top:hover {
     transform: scale(1.02) translateY(43%);
     cursor: pointer;
