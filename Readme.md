@@ -1,2 +1,2 @@
 Github respository
-https://danisaurius.github.io/Lazaratos/
+http://www.lazarato.com/
