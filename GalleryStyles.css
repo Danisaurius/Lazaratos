@@ -157,6 +157,38 @@ nav>ul>li>a:hover {
     color: rgb(128, 139, 0);
 }
 
+.title{
+    font-family: "Oswald", sans-serif;
+    font-size: 5.2em;
+    text-align: center;
+    width: 100%;
+    color: #152700;
+    margin: 50px auto;
+}
+
+.title>p {
+    animation: blurPulse 12s infinite;
+}
+
+@keyframes blurPulse {
+  0%, 100% {
+    filter: blur(0);
+    color: #a9b80b; 
+  }
+  25% {
+    filter: blur(4px);
+    color: #152700;
+  }
+  50% {
+    filter: blur(0);
+    color: #808b00;
+  }
+  75% {
+    filter: blur(4px);
+    color: #a9b80b
+  }
+}
+
 /* gallery */
 .gallery {
   display: grid;
@@ -242,6 +274,62 @@ nav>ul>li>a:hover {
 /* gallery end */
 
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 9999;
+  padding-top: 40px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Image */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 95%;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  animation: zoom 0.3s;
+}
+
+/* Caption text */
+#caption {
+  margin: 20px auto;
+  text-align: center;
+  color: #ccc;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #bbb;
+}
+
+/* Zoom animation */
+@keyframes zoom {
+  from {transform: scale(0.7)}
+  to {transform: scale(1)}
+}
+
+/* modal end */
 
 .footer_container {
     width: 100%;

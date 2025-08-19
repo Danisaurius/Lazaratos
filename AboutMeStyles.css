@@ -161,14 +161,14 @@ nav>ul>li>a:hover {
 .about_me_container {
     width: 100%;
     height: 1000px;
-    background: radial-gradient(circle at 50% 30%, 
-    rgb(212,215,62) 30%,
-    rgb(252,252,216) 80%);
+    background: radial-gradient(circle at 50% 30%,
+            rgb(212, 215, 62) 30%,
+            rgb(252, 252, 216) 80%);
     position: relative;
 }
 
 .about_me_title {
-    width: 50%;
+    width: 35%;
     align-items: center;
     justify-content: center;
     font-family: "Oswald", sans-serif;
@@ -178,11 +178,14 @@ nav>ul>li>a:hover {
     text-align: left;
     position: absolute;
     top: 25%;
-    left: 3%;
+    left: 7%;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.5s;
 }
 
 .about_me_subtitle {
-    width: 50%;
+    width: 35%;
     align-items: center;
     justify-content: center;
     font-family: "Oswald", sans-serif;
@@ -192,21 +195,28 @@ nav>ul>li>a:hover {
     text-align: left;
     position: absolute;
     top: 32%;
-    left: 3%;
+    left: 7%;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.7s;
 }
 
 .about_me_paragraph {
-    width: 50%;
+    width: 35%;
     align-items: center;
     justify-content: center;
     font-family: "Oswald", sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 200;
     color: var(--main_text_color);
     text-align: left;
     position: absolute;
     top: 45%;
-    left: 3%;
+    left: 7%;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.9s;
+
 }
 
 .about_me_profile_pic_base {
@@ -220,6 +230,19 @@ nav>ul>li>a:hover {
     border-radius: 10% 0 0 10%;
     transition: filter 0.3s ease;
     filter: drop-shadow(-2px -2px 5px rgba(42, 43, 0, 0.43));
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+        /* slight slide up effect */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
