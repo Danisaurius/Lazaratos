@@ -167,6 +167,16 @@ nav>ul>li>a:hover {
     position: relative;
 }
 
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+
+}
+
 .about_me_title {
     width: 35%;
     align-items: center;
@@ -176,9 +186,6 @@ nav>ul>li>a:hover {
     font-size: 3.5em;
     color: var(--main_text_color);
     text-align: left;
-    position: absolute;
-    top: 25%;
-    left: 7%;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
     animation-delay: 0.5s;
@@ -186,6 +193,7 @@ nav>ul>li>a:hover {
 
 .about_me_subtitle {
     width: 35%;
+    margin-bottom: 25px;
     align-items: center;
     justify-content: center;
     font-family: "Oswald", sans-serif;
@@ -193,9 +201,6 @@ nav>ul>li>a:hover {
     font-weight: 400;
     color: var(--main_text_color);
     text-align: left;
-    position: absolute;
-    top: 32%;
-    left: 7%;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
     animation-delay: 0.7s;
@@ -206,13 +211,10 @@ nav>ul>li>a:hover {
     align-items: center;
     justify-content: center;
     font-family: "Oswald", sans-serif;
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 200;
     color: var(--main_text_color);
     text-align: left;
-    position: absolute;
-    top: 45%;
-    left: 7%;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
     animation-delay: 0.9s;
