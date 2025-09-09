@@ -165,6 +165,7 @@ nav>ul>li>a:hover {
             rgb(212, 215, 62) 30%,
             rgb(252, 252, 216) 80%);
     position: relative;
+    display: flex;
 }
 
 
@@ -304,6 +305,168 @@ nav>ul>li>a:hover {
 
 .about_me_profile_pic_top:hover~.about_me_profile_pic_base {
     filter: grayscale(100%);
+}
+
+/* added */
+
+
+@media (max-width: 1100px) {
+
+    .about_me_container {
+        height: 1400px;
+    }
+
+    .textContainer {
+        top: 54%;
+        left: 12%;
+        width: 100%;
+    }
+
+    .about_me_title {
+        width: 80%;
+    }
+
+    .about_me_subtitle {
+        width: 80%;
+    }
+
+    .about_me_paragraph {
+        width: 80%;
+    }
+
+    .about_me_profile_pic_base {
+        width: 80%;
+    }
+
+    .about_me_profile_pic_base {
+        transform: none;
+        top: 10px;
+        right: 12%;
+        width: 74%;
+        border-radius: 10% 10% 10% 10%;
+    }
+
+    .about_me_profile_pic_top {
+        transform: none;
+        top: 10px;
+        right: 12%;
+        width: 74%;
+
+    }
+
+    .about_me_profile_pic_top:hover {
+        transform: scale(1.02) translateY(-10px);
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .about_me_container {
+        height: 1200px;
+    }
+
+    .textContainer {
+        top: 50%;
+        left: 12%;
+        width: 100%;
+    }
+
+    .about_me_title {
+        width: 80%;
+        font-size: 3.2em;
+    }
+
+
+    .about_me_subtitle {
+        width: 80%;
+        font-size: 3em;
+    }
+
+    .about_me_paragraph {
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    .about_me_profile_pic_base {
+        width: 80%;
+    }
+
+    .about_me_profile_pic_base {
+        transform: none;
+        top: 20px;
+        right: 12%;
+        width: 74%;
+        border-radius: 10% 10% 10% 10%;
+    }
+
+    .about_me_profile_pic_top {
+        transform: none;
+        top: 20px;
+        right: 12%;
+        width: 74%;
+
+    }
+
+    .about_me_profile_pic_top:hover {
+        transform: scale(1.02) translateY(-10px);
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .about_me_container {
+        height: 1000px;
+    }
+
+    .textContainer {
+        top: 44%;
+        left: 12%;
+        width: 100%;
+    }
+
+    .about_me_title {
+        width: 80%;
+        font-size: 3em;
+    }
+
+
+    .about_me_subtitle {
+        width: 80%;
+        font-size: 2.8em;
+    }
+
+    .about_me_paragraph {
+        width: 80%;
+        font-size: 1.1em;
+    }
+
+    .about_me_profile_pic_base {
+        width: 80%;
+    }
+
+    .about_me_profile_pic_base {
+        transform: none;
+        top: 20px;
+        right: 12%;
+        width: 74%;
+        border-radius: 10% 10% 10% 10%;
+    }
+
+    .about_me_profile_pic_top {
+        transform: none;
+        top: 20px;
+        right: 12%;
+        width: 74%;
+
+    }
+
+    .about_me_profile_pic_top:hover {
+        transform: scale(1.02) translateY(-10px);
+        cursor: pointer;
+    }
 }
 
 
